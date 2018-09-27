@@ -53,8 +53,8 @@ require 'src/templates.php';
   <div class="container">
 
     <!-- YOUR HTML CODE GOES HERE -->
-    <h1><?=word('TXT_TITLE') ?></h1>
-    <p><?=word('TXT_TEXT_1') ?></p>
+    <h1><?=word('TXT_BLOC_1') ?></h1>
+    <p><?=word('TXT_TXT_1') ?></p>
 
     <?php // require 'common/php/button_top.php'; ?>
   </div>
