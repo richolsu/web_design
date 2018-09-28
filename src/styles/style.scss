@@ -3,8 +3,90 @@
 
 // HERE YOU CAN OVERRIDE STYLES FROM THE WEBSITE ( MENU, FOOTER, ... )
 
-##{$ID} {
+##{kr_test_template_927} {
 
   // YOUR CSS CODE GOES HERE
 
+	.pull-left {
+	  float: left !important;
+	}
+
+	.row:after,
+	.row:before {
+	  display: table;
+	  content: " ";
+	}
+
+	.row:after {
+	  clear: both;
+	}
+
+	.w20 {
+	  padding: 96px;
+	}
+	.w20 .text-body {
+	  margin-top: 120px;  
+	}
+	.w20-link,
+	.w20-description {
+	  margin:auto;
+	  width:350px;
+	  font-family: AvantGarde;
+	  font-size: 9px;
+	  line-height: 2.22;
+	  letter-spacing: 0.9px;
+	  text-align: center;
+	  color: #000000;
+	}
+
+	.w20-link {
+	  margin-top:31px;
+	  text-decoration: underline;
+	}
+	.basket {
+	  margin-left: 120px;
+	  
+	}
+
+
+	.campaign .text-body {
+	  margin-left: 110px;
+	  text-align: center;
+	}
+
+	.campaign-title {
+	  font-family: Computerfont;
+	  color: #000000;
+	  font-size: 40px;
+	}
+
+	.campaign-link {
+	  margin-top:25px;
+	  font-family: AvantGarde;
+	  font-size: 9px;
+	  line-height: 2.22;
+	  letter-spacing: 0.9px;
+	  color: #000000;
+	  text-decoration: underline;
+	}
+
+	.product {
+	  margin-top:100px;
+	  margin-bottom: 71px;
+	}
+
+	.product .dress {
+	  margin-left: 57px;
+	  margin-right: 50px;
+	}
+
+	.item .description {
+	  margin-top:19px;
+	  text-align: center;
+	  font-family: AvantGarde;
+	  line-height: 2.22;
+	  letter-spacing: 0.9px;
+	  font-size: 9px;
+	  color: #000000;
+	}
 }

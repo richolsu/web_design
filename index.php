@@ -53,7 +53,7 @@ require 'src/templates.php';
   <div class="container">
 
     <div class="row intro">
-        <img src="assets/intro.jpg" width="100%" />
+        <img src="<?=PATH_TO_IMAGES()?>/intro.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/intro@2x.jpg?$staticlink$ 2x" width="100%" />
       </div>
       <div class="row w20">
         <div class="pull-left text-body">
