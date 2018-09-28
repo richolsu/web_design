@@ -53,7 +53,7 @@ require 'src/templates.php';
   <div class="container">
 
     <div class="row intro">
-        <img src="assets/intro.png" width="100%" />
+        <img src="assets/intro.jpg" width="100%" />
       </div>
       <div class="row w20">
         <div class="pull-left text-body">
@@ -62,13 +62,13 @@ require 'src/templates.php';
           <div class="w20-link"><?=word('TXT_CTA_DISCOVER') ?></div>
         </div>
         <div class="pull-left basket">
-          <img src="<?=PATH_TO_IMAGES()?>/basket.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/basket@2x.png?$staticlink$ 2x"/>
+          <img src="<?=PATH_TO_IMAGES()?>/basket.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/basket@2x.jpg?$staticlink$ 2x"/>
         </div>
 
       </div>
       <div class="row campaign">
         <div class="pull-left">
-            <img src="<?=PATH_TO_IMAGES()?>/campaign.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/campaign@2x.png?$staticlink$ 2x"/>
+            <img src="<?=PATH_TO_IMAGES()?>/campaign.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/campaign@2x.jpg?$staticlink$ 2x"/>
         </div>
         <div class="pull-left text-body">
           <div class="campaign-title"><?=word('TXT_BLOC_2') ?></div>
@@ -86,7 +86,7 @@ require 'src/templates.php';
             <div class="description"><?=word('TXT_PRODUCT_2') ?></div>
         </div>
         <div class="pull-left item">
-            <img src="<?=PATH_TO_IMAGES()?>/sneakers.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/sneakers@2x.png?$staticlink$ 2x"/>
+            <img src="<?=PATH_TO_IMAGES()?>/sneakers.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/sneakers@2x.jpg?$staticlink$ 2x"/>
             <div class="description"><?=word('TXT_PRODUCT_3') ?></div>
         </div>
       </div>

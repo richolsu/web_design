@@ -10,7 +10,7 @@ command -v zip >/dev/null 2>&1 || {
   exit 1
 }
 
-langs=(FR)
+langs=(FR UK ES DE IT)
 
 set -o errexit # exit on errors
 # set -o nounset # exit on unset vars
