@@ -66,7 +66,7 @@ require 'src/templates.php';
         </div>
 
       </div>
-      <div class="row campaign">
+      <div class="row campaign-row">
         <div class="pull-left">
             <img src="<?=PATH_TO_IMAGES()?>/campaign.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/campaign@2x.jpg?$staticlink$ 2x"/>
         </div>
