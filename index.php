@@ -52,9 +52,44 @@ require 'src/templates.php';
 <div class="kr_content_wrapper" id="<?= ID() ?>" data-lang="<?= LANG() ?>" data-lang-short="<?= SHORT_LANG() ?>">
   <div class="container">
 
-    <!-- YOUR HTML CODE GOES HERE -->
-    <h1><?=word('TXT_BLOC_1') ?></h1>
-    <p><?=word('TXT_TXT_1') ?></p>
+    <div class="row intro">
+        <img src="assets/intro.png" width="100%" />
+      </div>
+      <div class="row w20">
+        <div class="pull-left text-body">
+          <img class="w20-logo" src="<?=PATH_TO_IMAGES()?>/w20.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/w20@2x.jpg?$staticlink$ 2x"/>
+          <div class="w20-description"><?=word('TXT_TXT_1') ?></div>
+          <div class="w20-link"><?=word('TXT_CTA_DISCOVER') ?></div>
+        </div>
+        <div class="pull-left basket">
+          <img src="<?=PATH_TO_IMAGES()?>/basket.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/basket@2x.png?$staticlink$ 2x"/>
+        </div>
+
+      </div>
+      <div class="row campaign">
+        <div class="pull-left">
+            <img src="<?=PATH_TO_IMAGES()?>/campaign.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/campaign@2x.png?$staticlink$ 2x"/>
+        </div>
+        <div class="pull-left text-body">
+          <div class="campaign-title"><?=word('TXT_BLOC_2') ?></div>
+          <div class="campaign-link"><?=word('TXT_CTA_DISCOVER') ?></div>
+        </div>
+        
+      </div>
+      <div class="row product">
+        <div class="pull-left item">
+            <img src="<?=PATH_TO_IMAGES()?>/jacket.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/jacket@2x.jpg?$staticlink$ 2x"/>
+            <div class="description"><?=word('TXT_PRODUCT_1') ?></div>
+        </div>
+        <div class="pull-left item dress">
+            <img src="<?=PATH_TO_IMAGES()?>/dress.jpg?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/dress@2x.jpg?$staticlink$ 2x"/>
+            <div class="description"><?=word('TXT_PRODUCT_2') ?></div>
+        </div>
+        <div class="pull-left item">
+            <img src="<?=PATH_TO_IMAGES()?>/sneakers.png?$staticlink$" srcset="<?=PATH_TO_IMAGES()?>/sneakers@2x.png?$staticlink$ 2x"/>
+            <div class="description"><?=word('TXT_PRODUCT_3') ?></div>
+        </div>
+      </div>
 
     <?php // require 'common/php/button_top.php'; ?>
   </div>
