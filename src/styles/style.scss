@@ -6,7 +6,23 @@
 ##{kr_test_template_927} {
 
   // YOUR CSS CODE GOES HERE
+	@media (min-width: 768px) {
+	  .container {
+	    width: 750px;
+	  }
+	}
 
+	@media (min-width: 992px) {
+	  .container {
+	    width: 970px;
+	  }
+	}
+
+	@media (min-width: 1440px) {
+	  .container {
+	    width: 1440px;
+	  }
+	}
 	.pull-left {
 	  float: left !important;
 	}
